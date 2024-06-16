@@ -1,4 +1,10 @@
 {
-  "customizations":{
-  }
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.vscode-codeql"
+      ]
+    }
+  },
+  "onCreateCommand": "bash /workspaces/gh-codeql/.devcontainer/onCreateCommand.sh"
 }
